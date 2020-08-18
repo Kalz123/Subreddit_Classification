@@ -1,21 +1,14 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & NLP
+# NLP AND CLASSIFICATION OF SUBREDDITS
 
 ### Description
+- Using [Pushshift's](https://github.com/pushshift/api) API, posts from two subreddits are collected and NLP is used to train a classifier to determine the subreddit a given post came from.
 
-In week four we've learned about a few different classifiers. In week five we'll learn about webscraping, APIs, and Natural Language Processing (NLP). This project will put those skills to the test.
-
-For project 3, your goal is two-fold:
-1. Using [Pushshift's](https://github.com/pushshift/api) API, you'll collect posts from two subreddits of your choosing.
-2. You'll then use NLP to train a classifier on which subreddit a given post came from. This is a binary classification problem.
-
-
-#### About the API
-
-Pushshift's API is fairly straightforward. For example, if I want the posts from [`/r/boardgames`](https://www.reddit.com/r/boardgames), all I have to do is use the following url: https://api.pushshift.io/reddit/search/submission?subreddit=boardgames
-
-To help you get started, we have a primer video on how to use the API: https://youtu.be/AcrjEWsMi_E
-
----
+**Steps**
+1. Data Collection
+2. Eda and Data Cleaning 
+3. Feature Engineering
+4. Modelling with logistic Regression
+5. Modelling with Multinomial Naive Bayes Regression
 
 ### Requirements
 
